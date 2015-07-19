@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FilmGenres</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="genres">Genres</string>
+    <string name="new_film">New Film</string>
+    <string name="all_films">All Films</string>
+    
+    <string name="genre">Genre</string>
+    <string name="placegenre">Please place the genre name</string>
+    <string name="placegenredesc">Please place the genre description</string>
+    
+    <string name="description">Description</string>
+ 
+    <string name="confirm">Confirm</string>
+    <string name="listgenres">All Genres, select a genre to delete or update it</string>
+    
+    
+    <string name="updategenre">Update</string>
+    <string name="deletegenre">Delete</string>
+</resources>

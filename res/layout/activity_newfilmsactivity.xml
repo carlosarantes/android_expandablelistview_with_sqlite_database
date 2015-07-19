@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical" >
+
+    <ProgressBar
+        android:id="@+id/pg_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progressDrawable="@drawable/customprogressbar"
+         />
+
+    <TextView
+        android:id="@+id/tv_filmname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Film Name" />
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:id="@+id/et_idfilm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" >
+        </EditText>
+        
+        <EditText
+            android:id="@+id/et_filmname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:hint="Place the name of the film"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+    
+     <TextView
+        android:id="@+id/tv_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Year/Release" />
+    
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:id="@+id/et_yearfilm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="Year"
+            android:numeric="integer"
+            android:maxLength="4"
+            android:ems="10" >
+        </EditText>
+        
+        <EditText
+            android:id="@+id/et_filmrealease"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:ems="10"
+            android:hint="Date of release"
+            android:inputType="date"
+            android:maxLength="10" >
+
+        </EditText>
+        
+    </LinearLayout>
+     
+     <TextView
+        android:id="@+id/tv_filmduration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Duration/Country" />
+     
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:id="@+id/et_filmduration"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:hint="mins"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:ems="10" >
+        </EditText>
+        
+        <EditText
+            android:id="@+id/et_countryfilm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:hint="Country"
+            android:ems="10" >
+        </EditText>
+        
+    </LinearLayout>
+     
+     <TextView
+        android:id="@+id/tv_filmdirector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Director" />
+     
+     <EditText
+            android:id="@+id/et_filmdirector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Film's director's name"
+            android:ems="10" >
+        </EditText>
+     
+     <TextView
+        android:id="@+id/tv_filmgenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main Genre" />
+
+     <Spinner
+         android:id="@+id/spin_genres"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+     
+     
+     <TextView
+        android:id="@+id/tv_filmdescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description" />
+     
+     <EditText
+            android:id="@+id/et_filmdescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Place a description"
+            android:ems="10" >
+     </EditText>
+
+     <Button
+         android:id="@+id/bt_confirm"
+         android:background="@drawable/shape_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Confirm" />
+     
+</LinearLayout>

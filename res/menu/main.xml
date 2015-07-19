@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.filmgenres.Main" >
+
+    <item
+        android:id="@+id/genres"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/genres"/>
+    <item
+        android:id="@+id/new_film"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/new_film"/>
+    <item
+        android:id="@+id/all_films"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/all_films"/>
+</menu>

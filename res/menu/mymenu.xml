@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"  >
+
+    <item
+        android:id="@+id/delete_genre"
+        android:orderInCategory="100"
+        android:showAsAction="collapseActionView"
+        android:title="@string/deletegenre"/>
+    <item
+        android:id="@+id/update_genre"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/updategenre"/>
+
+</menu>
